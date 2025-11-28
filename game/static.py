@@ -1,5 +1,6 @@
 # constants
 
+# is this too much? lmfao
 GAME_CURRENT_VERSION_MAJOR = 0
 GAME_CURRENT_VERSION_MINOR = 1
 GAME_CURRENT_VERSION_PATCH = 0
