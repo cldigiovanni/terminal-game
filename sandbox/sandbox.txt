@@ -1,0 +1,10 @@
+the purpose of the sandbox folder is to have a place to work with ideas
+before adding them into the full structure of the game :)
+
+mechanics:
+- items have triggers
+- triggers have effects
+- effects create items
+- your inventory is essentially a cellular automata
+
+You start with three inventory slots and one item that deals one damage to an enemy

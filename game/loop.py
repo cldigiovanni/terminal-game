@@ -7,12 +7,15 @@ from game.game_state import state_manager
 
 state = state_manager()
 
+# the main loop contains code that keeps the game 
+# running and handles flow control/game state
 def mainloop():
     while state.running:
         state.running = loop()
 
     print("You lost! Don't let the door hit you on your way out!")
 
+# the loop function is what actually happens during each loop
 def loop():
     user_input = input("> ")
 
